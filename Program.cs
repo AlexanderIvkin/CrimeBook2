@@ -218,11 +218,6 @@ namespace CrimeBook
             return s_random.Next(maxValueExclusive);
         }
 
-        public static int GenerateLimitedNumber(int minValueInclusive, int maxValueExclusive)
-        {
-            return s_random.Next(minValueInclusive, maxValueExclusive);
-        }
-
         public static int GenerateNumberFromArrayLimits(int[] limits)
         {
             Array.Sort(limits);
